@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+::-webkit-input-placeholder{font-weight:lighter;letter-spacing:2px;}
+::-moz-placeholder{font-weight:lighter;}
+::placeholder{font-weight:lighter;}
+
+.textareaIconContainer{display:inline-block;position:relative;/*background-color:#06C;*/ height:70px;float:left;top:5px;margin-left:5px;border-radius:5px 0px 0px 5px;}
+i.input{display:inline-block;position:relative;width:40px;height:46px; /*background-color:#06C; */top:4px;border:solid 1px;border-right:none;border-radius:5px 0px 0px 5px;margin-left:5px;float:left;font-size:20px;color:#FFF;padding:12px 10px 12px 8px;box-sizing:border-box;}
+i.input.button{background-position:-476px -141px;border:none;height:36px;top:-3px;}
+i.input.register{background-position:-565px -134px;border:none;height:36px;top:-3px;}
+i.input.name{background-position:-122px -139px;}
+i.input.email{background-position:-390px -136px;}
+i.input.mobile{background-position:-355px -138px;}
+i.input.textarea{background-position:-311px -135px;border:none;top:auto;margin:0;}
+i.input.blood{background-position:-619px -135px;}
+i.input.register{background-position:-565px -134px;}
+
+/*inputs starts here*/
+
+label{display:block;position:relative;overflow:auto;}
+@media only screen and (max-width:536px){
+	input[type=search],input[type=text],input[type=tel],input[type=date],input[type=email],input[type=number],input[type=file],textarea{display:inline-block;position:relative;float:left;font-size:14px;padding:12px 2px 12px 5px;outline:none;font-weight:bold;width:230px;height:44px;border:solid 1px;border-left:none;margin:5px 5px 5px 0px;box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;transition:all .3s;}
+}
+@media only screen and (min-width:536px){
+	input[type=search],input[type=text],input[type=tel],input[type=date],input[type=email],input[type=number],textarea{display:inline-block;position:relative;float:left;font-size:14px;padding:16px 2px 12px 5px;outline:none;font-weight:bold;width:350px;height:44px;border:solid 1px;border-left:none;margin:5px 5px 5px 0px;box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;transition:all .3s;}
+
+}
+input[type=search]:focus,input[type=text]:focus,input[type=tel]:focus,input[type=date]:focus,input[type=email]:focus,input[type=number]:focus,input[type=file]:focus,textarea:focus{box-shadow:0 0 7px;}
+
+@media only screen and (max-width:536px){
+	textarea{width:230px;height:70px;resize:none;}
+}
+@media only screen and (min-width:536px){
+	textarea{width:350px;height:70px;resize:none;}
+}
+input[type=submit],button{display:block;position:relative; /*background-color:#06C; */color:#FFF;border:solid 1px;margin:5px;outline:none;padding:5px 5px 0px 0px;}
+button .buttonName{display:inline-block;position:relative;padding:0px;margin:0;top:7px;margin-left:5px;font-size:14px;}
+
+input,button,textarea{font-family: myFont, sans-serif, Verdana, Geneva;}
+/*inputs ends here*/
